@@ -23,10 +23,12 @@ int main()
 {
 	char str1[40] = "Welcome";
 	char str2[40] = "hello";
-	for(int i=0;str1[i]!='\0';i++)
+	int i;
+	for( i=0;str2[i]!='\0';i++)
     {
         str1[i]=str2[i];
     }
+	str1[i]='\0';
 	puts(str1);
 	puts(str2);
 }
